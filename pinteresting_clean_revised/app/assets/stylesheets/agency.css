@@ -125,7 +125,7 @@ fieldset[disabled] .btn-primary.active {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: black;
 }
 
 .btn-xl:hover,
@@ -133,9 +133,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
-    color: #fff;
-    background-color: #fec503;
+    color: #f6bf01;
 }
 
 .btn-xl:active,
@@ -160,12 +158,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
     border-color: #fed136;
-    background-color: #fed136;
+    background-color: #f6bf01;
 }
 
 .btn-xl .badge {
     color: #fed136;
-    background-color: #fff;
+    background-color: #f6bf01;
 }
 
 
@@ -237,6 +235,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    visibility: hidden;
 }
 
 section h3.section-subheading {

@@ -32,3 +32,11 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$(window).scroll(function() {
+    var topOfWindow = $(window).scrollTop();
+    if ($(".example-container").offset().top < topOfWindow+10000);
+     {
+                $(".example-container").addClass("bounceIn");
+            }
+        });

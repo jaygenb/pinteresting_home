@@ -1393,6 +1393,13 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.example-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  visibility: hidden;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
